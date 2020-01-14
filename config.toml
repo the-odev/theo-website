@@ -44,7 +44,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Freelance Software Developer"
-    subtitle = 'Passionate about software programming, working as a freelance this is my personal website used to show my differents work experience and skills'
+    subtitle = 'Passionate about software programming, working as a freelance this is my personal website use to show my differents work experiences and skills'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -85,7 +85,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Work"
-    description = "This is a not ehauxstive of project I have been involved in."
+    description = "This is a not exhaustive list of project I have been involved in."
     # footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
@@ -154,69 +154,70 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Technologies"
+    description = "A summary of technologies I have been using"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Programming"
+      description = "C# (.NET(core), ASP, Web API) - JavaScript - TypeScript - Node.JS - SQL - NoSQL - YAML - JSON - XML - HTTP - CSS3 - Visual Basic"
+      icon = "icon-terminal"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Data"
+      description = "SQL and NoSQL Databases (SQL Server, PostGre, MongoDB, DynamoDB), ElasticSearch, Redis, Talend, Qliksense, Qlikview"
+      icon = "icon-database"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "DevOps"
+      description = "GIT - Azure DevOps - Amazon Web Services - Google Cloud Platform - Docker - TeamCity - Jenkins"
+      icon = "icon-cogs"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      title = "Miscellaneous"
+      description = "TDD - Best Practices - Apache - NGinx - IIS - Unix - Windows - Project Management"      
       icon = "icon-monitor"
 
-  # About section
-  [params.about]
-    enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  # # About section
+  # [params.about]
+  #   enable = true
+  #   title = "About"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+  #   [[params.about.item]]
+  #     name = "Jean Smith"
+  #     position = "Web Designer"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person1.jpg"
+  #     alt = "Person1"
+  #     social = [
+  #       ["icon-twitter", "#"],
+  #       ["icon-facebook", "#"],
+  #       ["icon-linkedin", "#"]
+  #     ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+  #   [[params.about.item]]
+  #     name = "Rob Smith"
+  #     position = "Web Developer"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person2.jpg"
+  #     alt = "Person2"
+  #     social = [
+  #       ["icon-twitter", "#"],
+  #       ["icon-facebook", "#"],
+  #       ["icon-github", "#"]
+  #     ]
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+  #   [[params.about.item]]
+  #     name = "Larry Ben"
+  #     position = "Web Designer"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #     img = "person3.jpg"
+  #     alt = "Person3"
+  #     social = [
+  #       ["icon-twitter", "#"],
+  #       ["icon-facebook", "#"],
+  #       ["icon-dribbble", "#"]
+  #     ]      
 
   # # Counters section
   # [params.counters]
@@ -262,14 +263,14 @@ theme = "hugo-elate-theme"
     map = false
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Montpellier, France"],
         ["icon-phone", "(+33) 6 76 92 21 87"],
         ["icon-envelope", "theo.delfieu@gmail.com"],
-        ["icon-globe", '<a href="http://www.the-o.dev/" target="_blank">the-o.dev</a>']
+        ["icon-globe", '<a href="https://www.the-o.dev/" target="_blank">the-o.dev</a>']
       ]
 
     name = "Name"
@@ -281,9 +282,36 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-      ]
+    # copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>'
+    # links = [
+    #     ["icon-twitter", "#twitter"],
+    #     ["icon-facebook", "#facebook"],
+    #     ["icon-youtube", "#youtube"]
+    #   ]
+
+
+[deployment]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "mydeployment"
+# The Go Cloud Development Kit URL to deploy to. Examples:
+# GCS; see https://gocloud.dev/howto/blob/#gcs
+URL = "gs://www.the-o.dev"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
+
+
