@@ -1,0 +1,27 @@
+#fh5co-intro .fh5co-block {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    min-height: 100%;
+    vertical-align: middle;
+    padding: 40px 40px 0px 40px;
+    background: #fff;
+    -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    z-index: 7;
+    flex-grow: 1;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-intro .fh5co-block {
+      width: 100%;
+      padding: 40px;
+      min-height: 0%;
+    }
+  }
